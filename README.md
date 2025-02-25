@@ -91,3 +91,15 @@ El programa usa las siguientes primitivas de **MPI**:
 En sistemas **Debian/Ubuntu**, instala **OpenMPI** con:  
 ```bash
 sudo apt-get install openmpi-bin openmpi-common libopenmpi-dev
+```
+
+Para compilar el programa, usamos:
+```bash
+`mpicc Practica2_SebastianSalmeronGomez.c -o algoritmoRey`
+```
+
+Y para ejecutar el programa (con los nodos deseados):
+```bash
+`mpirun -np 5 ./algoritmoRey`
+```
+
